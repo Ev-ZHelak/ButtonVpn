@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VPN_NAME="StarGuard"  # Замените на имя вашего VPN
+VPN_NAME="ИмяVPN"  # Замените на имя вашего VPN
 
 # Проверяем статус VPN
 STATUS=$(scutil --nc list | grep "$VPN_NAME" | awk '{print $2}')
