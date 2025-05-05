@@ -26,5 +26,5 @@ elif [ "$STATUS" = "(Disconnected)" ]; then
 else 
     # Если VPN не существует
     osascript -e "display notification \"VPN $VPN_NAME не существует\" with title \"Ошибка!\"" 
-    echo "Ошибка VPN $VPN_NAME не существует"
+    echo "Ошибка не существует VPN $VPN_NAME"
 fi
