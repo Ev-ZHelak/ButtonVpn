@@ -30,7 +30,7 @@
 ### Способ 3: Использование в терминале
 ```bash
 # 1. Скачайте скрипт
-curl -O https://example.com/vpn_toggle.sh
+curl -O https://github.com/Ev-ZHelak/ButtonVpn/blob/main/vpn_toggle.sh
 
 # 2. Дайте права на выполнение
 chmod +x vpn_toggle.sh
